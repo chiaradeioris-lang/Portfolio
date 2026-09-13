@@ -64,11 +64,14 @@ sass.cmd --watch assets/scss/style.scss:assets/css/style.css
 Il portfolio comprende tre progetti principali:
 
 Sunnee - progettazione di un'identità visiva per un brand di beachwear sostenibile.
-Isola Bio - Wireframing - progetto di redesign UX, dalla discovery alla progettazione dei wireframe e dei wireflow.
-Isola Bio - User Interface - progettazione di interfacce ad alta fedeltà per desktop e mobile.
-Sito web
 
-## Il portfolio è pubblicato tramite GitHub Pages:
+Isola Bio - Wireframing - progetto di redesign UX, dalla discovery alla progettazione dei wireframe e dei wireflow.
+
+Isola Bio - User Interface - progettazione di interfacce ad alta fedeltà per desktop e mobile.
+
+## Sito web
+
+Il portfolio è pubblicato tramite GitHub Pages:
 
 ```text
 https://chiaradeioris-lang.github.io/Portfolio/
