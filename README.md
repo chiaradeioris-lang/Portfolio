@@ -18,6 +18,7 @@ di formazione in UX/UI Design.
 
 ## Struttura del progetto
 
+```text
 - `Portfolio/`
   - `assets/`
     - `css/`
@@ -47,8 +48,8 @@ di formazione in UX/UI Design.
   - `README.md`	
   - `contatti.html`
   - `cv.html`	
-  - `index.html`	
-        
+  - `index.html`
+```		
 ## Come avviare il progetto 		
 
 Il progetto può essere aperto direttamente tramite index.html.
@@ -57,17 +58,19 @@ Per compilare il file SCSS in CSS è possibile utilizzare Sass con il comando:
 
 ```text
 sass.cmd --watch assets/scss/style.scss:assets/css/style.css
-Progetti
 ```
 
-## Il portfolio comprende tre progetti principali:
+## Progetti
 
-Sunnee — progettazione di un'identità visiva per un brand di beachwear sostenibile.
-Isola Bio — Wireframing — progetto di redesign UX, dalla discovery alla progettazione dei wireframe e dei wireflow.
-Isola Bio — User Interface — progettazione di interfacce ad alta fedeltà per desktop e mobile.
+Il portfolio comprende tre progetti principali:
+
+Sunnee - progettazione di un'identità visiva per un brand di beachwear sostenibile.
+Isola Bio - Wireframing - progetto di redesign UX, dalla discovery alla progettazione dei wireframe e dei wireflow.
+Isola Bio - User Interface - progettazione di interfacce ad alta fedeltà per desktop e mobile.
 Sito web
 
 ## Il portfolio è pubblicato tramite GitHub Pages:
 
 ```text
 https://chiaradeioris-lang.github.io/Portfolio/
+```
