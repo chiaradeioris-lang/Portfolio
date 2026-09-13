@@ -18,16 +18,9 @@ di formazione in UX/UI Design.
 
 ## Struttura del progetto
 
+```text
 - `Portfolio/`
-  - `index.html`
-  - `cv.html`
-  - `contatti.html`
-  - `README.md`
-  - `progetti/`
-    - `progetto-grafica.html`
-    - `progetto-wireframing.html`
-    - `progetto-ui.html`
-  - `assets/`
+- `assets/`
     - `css/`
       - `style.css`
     - `scss/`
@@ -46,6 +39,17 @@ di formazione in UX/UI Design.
       - `wireframing-isola-bio 2.pdf`
       - `ui-isola-bio 1.pdf`
       - `ui-isola-bio 2.pdf`
+	  
+- `progetti/`
+    - `progetto-grafica.html`
+    - `progetto-wireframing.html`
+    - `progetto-ui.html`
+	
+- `README.md`	
+- `contatti.html`
+- `cv.html`	
+- `index.html`
+```		
         
 ## Come avviare il progetto 		
 
