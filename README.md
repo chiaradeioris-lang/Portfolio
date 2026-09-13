@@ -18,42 +18,35 @@ di formazione in UX/UI Design.
 
 ## Struttura del progetto
 
-```text
-Portfolio/
-│
-├── index.html
-├── cv.html
-├── contatti.html
-├── README.md
-│
-├── progetti/
-│   ├── progetto-grafica.html
-│   ├── progetto-wireframing.html
-│   └── progetto-ui.html
-│
-└── assets/
-    ├── css/
-    │   └── style.css
-    │
-    ├── scss/
-    │   └── style.scss
-    │
-    ├── img/
-    │   ├── logo.svg
-    │   ├── pittogramma.svg
-	│   ├── favicon.png
-    │   ├── foto.jpg
-    │   ├── grafica.jpg
-    │   ├── wireframing.jpg
-    │   └── user-interface.jpg
-    │
-    └── pdf/
-        ├── grafica-sunnee.pdf
-        ├── wireframing-isola-bio 1.pdf
-        ├── wireframing-isola-bio 2.pdf
-        ├── ui-isola-bio 1.pdf
-        └── ui-isola-bio 2.pdf
-```		
+- `Portfolio/`
+  - `index.html`
+  - `cv.html`
+  - `contatti.html`
+  - `README.md`
+  - `progetti/`
+    - `progetto-grafica.html`
+    - `progetto-wireframing.html`
+    - `progetto-ui.html`
+  - `assets/`
+    - `css/`
+      - `style.css`
+    - `scss/`
+      - `style.scss`
+    - `img/`
+      - `logo.svg`
+      - `pittogramma.svg`
+      - `favicon.png`
+      - `foto.jpg`
+      - `grafica.jpg`
+      - `wireframing.jpg`
+      - `user-interface.jpg`
+    - `pdf/`
+      - `grafica-sunnee.pdf`
+      - `wireframing-isola-bio 1.pdf`
+      - `wireframing-isola-bio 2.pdf`
+      - `ui-isola-bio 1.pdf`
+      - `ui-isola-bio 2.pdf`
+        
 ## Come avviare il progetto 		
 
 Il progetto può essere aperto direttamente tramite index.html.
