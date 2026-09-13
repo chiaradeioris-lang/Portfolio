@@ -1,0 +1,738 @@
+/* COLORI */
+
+$verde-scuro: #24261C;
+$verde-chiaro: #93A996;
+$bianco: #ffffff;
+
+
+/* GENERALE */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    color: $verde-scuro;
+    background-color: $bianco;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Georgia, serif;
+}
+
+a {
+    color: $verde-scuro;
+    text-decoration: none;
+}
+
+
+/* HEADER */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: $bianco;
+}
+
+.navbar {
+    padding: 20px 0;
+}
+
+.pittogramma {
+    width: 70px;
+}
+
+.nav-link {
+    color: $verde-scuro;
+    margin-left: 25px;
+}
+
+.nav-link:hover {
+    color: $verde-chiaro;
+}
+
+
+/* HERO */
+
+.hero {
+    padding: 80px 0;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 60px;
+}
+
+.sottotitolo {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.hero h2 {
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.hero h2 span {
+    color: $verde-chiaro;
+}
+
+.hero-text {
+    max-width: 550px;
+    line-height: 1.7;
+}
+
+.bottoni {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.bottone {
+    display: inline-block;
+    padding: 13px 25px;
+    border: 1px solid $verde-scuro;
+    background-color: $verde-scuro;
+    color: $bianco;
+}
+
+.bottone:hover {
+    background-color: $verde-chiaro;
+    border-color: $verde-chiaro;
+    color: $verde-scuro;
+}
+
+.hero-foto img {
+    width: 100%;
+    max-width: 450px;
+    display: block;
+    margin: auto;
+}
+
+
+/* ABOUT */
+
+.about {
+    padding: 80px 0;
+    background-color: $verde-chiaro;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 60px;
+}
+
+.about h2 {
+    font-size: 45px;
+}
+
+.about-text {
+    line-height: 1.8;
+}
+
+.about-text p {
+    margin-bottom: 25px;
+}
+
+
+/* SKILLS */
+
+.skills {
+    padding: 80px 0;
+}
+
+.skills h2 {
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.skill {
+    border-top: 1px solid $verde-scuro;
+    padding-top: 20px;
+}
+
+.skill span {
+    font-size: 14px;
+}
+
+.skill h3 {
+    margin: 15px 0;
+    font-size: 25px;
+}
+
+.skill p {
+    line-height: 1.6;
+}
+
+
+/* TOOLS */
+
+.tools {
+    padding: 50px 0;
+    background-color: $verde-scuro;
+    color: $bianco;
+}
+
+.tools-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.tools-list span {
+    border: 1px solid $bianco;
+    padding: 10px 18px;
+}
+
+
+/* PROGETTI */
+
+.projects {
+    padding: 80px 0;
+}
+
+.projects h2 {
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+.project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 60px;
+    padding: 30px 70px;
+}
+
+.project-image img {
+    width: 100%;
+    display: block;
+}
+
+.project-text {
+    padding: 20px;
+}
+
+.project-text > span {
+    font-size: 14px;
+}
+
+.project-text h3 {
+    font-size: 40px;
+    margin: 10px 0 5px;
+}
+
+.project-text h4 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.project-text p {
+    line-height: 1.7;
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 15px;
+    border-bottom: 1px solid $verde-scuro;
+}
+
+.project-link:hover {
+    color: $verde-chiaro;
+}
+
+
+/* FRECCE CAROSELLO */
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px;
+}
+
+.carousel-control-prev span,
+.carousel-control-next span {
+    color: $verde-scuro;
+    font-size: 30px;
+}
+
+
+/* CTA */
+
+.contact-cta {
+    padding: 80px 0;
+    text-align: center;
+    background-color: $verde-chiaro;
+}
+
+.contact-cta h2 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.contact-cta p {
+    font-size: 20px;
+}
+
+.contact-cta .bottone {
+    margin-top: 20px;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding-top: 60px;
+    background-color: $bianco;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.logo {
+    width: 220px;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer h3 {
+    font-size: 20px;
+}
+
+.footer a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer a:hover {
+    color: $verde-chiaro;
+}
+
+.copyright {
+    border-top: 1px solid $verde-scuro;
+    padding: 20px 0;
+}
+
+.copyright p {
+    margin: 0;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 767px) {
+
+    .navbar {
+        padding: 15px 0;
+    }
+
+    .pittogramma {
+        width: 45px;
+    }
+
+    .nav-link {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero h2 {
+        font-size: 25px;
+    }
+	 .bottoni {
+        flex-direction: column;
+    }
+
+    .hero-foto {
+        order: -1;
+    }
+
+
+    .about {
+        padding: 50px 0;
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .about h2 {
+        font-size: 38px;
+    }
+
+
+    .skills {
+        padding: 50px 0;
+    }
+
+    .skills h2 {
+        font-size: 38px;
+        margin-bottom: 35px;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+
+    .projects {
+        padding: 50px 0;
+    }
+
+    .projects h2 {
+        font-size: 38px;
+    }
+
+    .project {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 20px 40px;
+    }
+
+    .project-text {
+        padding: 0;
+    }
+
+    .project-text h3 {
+        font-size: 32px;
+    }
+
+
+    .contact-cta {
+        padding: 60px 20px;
+    }
+
+    .contact-cta h2 {
+        font-size: 35px;
+    }
+
+
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 40px;
+    }
+
+    .logo {
+        width: 220px;
+        height: auto;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+}
+/* CV */
+
+.cv-intro {
+    padding: 80px 0;
+    background-color: $verde-chiaro;
+}
+
+.cv-intro h1 {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.cv-section {
+    padding: 60px 0;
+    border-bottom: 1px solid $verde-scuro;
+}
+
+.cv-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 60px;
+}
+
+.cv-grid h2 {
+    font-size: 35px;
+}
+
+.cv-grid p {
+    line-height: 1.7;
+}
+
+.cv-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 40px;
+}
+
+.cv-list p {
+    margin: 0;
+}
+
+.formazione {
+    margin-bottom: 35px;
+}
+
+.formazione h3 {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.formazione p {
+    margin-bottom: 5px;
+}
+
+.lingue p {
+    margin-bottom: 15px;
+}
+
+
+/* CV MOBILE */
+
+@media (max-width: 767px) {
+
+    .cv-intro {
+        padding: 50px 0;
+    }
+
+    .cv-intro h1 {
+        font-size: 40px;
+    }
+
+    .cv-section {
+        padding: 45px 0;
+    }
+
+    .cv-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .cv-grid h2 {
+        font-size: 30px;
+    }
+
+    .cv-list {
+        grid-template-columns: 1fr;
+    }
+
+}
+ /* CONTATTI */
+
+.contact-intro {
+    padding: 80px 0;
+    background-color: $verde-chiaro;
+}
+
+.contact-intro h1 {
+    font-size: 55px;
+    max-width: 700px;
+    margin-bottom: 20px;
+}
+
+.contact-intro p {
+    max-width: 600px;
+    line-height: 1.7;
+}
+
+.contact-form {
+    padding: 80px 0;
+}
+
+form {
+    max-width: 700px;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid $verde-scuro;
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: 2px solid $verde-chiaro;
+}
+
+.privacy-check {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.privacy-check input {
+    margin-top: 5px;
+}
+
+.privacy-check label {
+    line-height: 1.5;
+}
+
+
+/* CONTATTI MOBILE */
+
+@media (max-width: 767px) {
+
+    .contact-intro {
+        padding: 50px 0;
+    }
+
+    .contact-intro h1 {
+        font-size: 40px;
+    }
+
+    .contact-form {
+        padding: 50px 0;
+    }
+
+}
+/* PAGINE PROGETTI */
+
+.project-page {
+    padding: 80px 0;
+}
+
+.project-page h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.project-description {
+    max-width: 700px;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 50px;
+}
+
+.project-main-image {
+    width: 100%;
+    display: block;
+    margin-bottom: 60px;
+}
+
+.project-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.project-content h2 {
+    font-size: 32px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.project-content p {
+    line-height: 1.7;
+}
+
+.project-pdf-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.project-pdf {
+    display: inline-block;
+    padding: 13px 25px;
+    border: 1px solid $verde-scuro;
+    background-color: $verde-scuro;
+    color: $bianco;
+}
+
+.project-pdf:hover {
+    background-color: $verde-chiaro;
+    border-color: $verde-chiaro;
+    color: $verde-scuro;
+}
+
+/* PAGINE PROGETTI MOBILE */
+
+@media (max-width: 767px) {
+
+     .project-page {
+        padding: 50px 0;
+    }
+
+    .project-page h1 {
+        font-size: 40px;
+    }
+
+    .project-description {
+        font-size: 16px;
+        margin-bottom: 35px;
+    }
+
+    .project-main-image {
+        margin-bottom: 40px;
+    }
+
+    .project-content h2 {
+        font-size: 28px;
+        margin-top: 40px;
+    }
+	
+	.project-pdf-links {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+}
