@@ -18,7 +18,6 @@ di formazione in UX/UI Design.
 
 ## Struttura del progetto
 
-```text
 - `Portfolio/`
 - `assets/`
     - `css/`
@@ -48,8 +47,7 @@ di formazione in UX/UI Design.
 - `README.md`	
 - `contatti.html`
 - `cv.html`	
-- `index.html`
-```		
+- `index.html`	
         
 ## Come avviare il progetto 		
 
