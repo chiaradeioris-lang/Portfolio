@@ -18,7 +18,6 @@ di formazione in UX/UI Design.
 
 ## Struttura del progetto
 
-```text
 - `Portfolio/`
   - `assets/`
     - `css/`
