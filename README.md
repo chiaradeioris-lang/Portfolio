@@ -48,7 +48,7 @@ di formazione in UX/UI Design.
   - `contatti.html`
   - `cv.html`	
   - `index.html`
-```		
+		
 ## Come avviare il progetto 		
 
 Il progetto può essere aperto direttamente tramite index.html.
