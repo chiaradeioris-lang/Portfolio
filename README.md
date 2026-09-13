@@ -19,7 +19,7 @@ di formazione in UX/UI Design.
 ## Struttura del progetto
 
 - `Portfolio/`
-- `assets/`
+  - `assets/`
     - `css/`
       - `style.css`
     - `scss/`
@@ -39,15 +39,15 @@ di formazione in UX/UI Design.
       - `ui-isola-bio 1.pdf`
       - `ui-isola-bio 2.pdf`
 	  
-- `progetti/`
+  - `progetti/`
     - `progetto-grafica.html`
     - `progetto-wireframing.html`
     - `progetto-ui.html`
 	
-- `README.md`	
-- `contatti.html`
-- `cv.html`	
-- `index.html`	
+  - `README.md`	
+  - `contatti.html`
+  - `cv.html`	
+  - `index.html`	
         
 ## Come avviare il progetto 		
 
